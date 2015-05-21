@@ -1,0 +1,37 @@
+{
+  "name": "array-query",
+  "description": "Run MongoDB-like queries on objects",
+  "version": "0.0.0",
+  "keywords": [
+    "arrays",
+    "queries",
+    "query"
+  ],
+  "homepage": "http://github.com/shovon/array-query",
+  "author": {
+    "name": "Salehen Shovon Rahman",
+    "email": "sal@linux.com",
+    "url": "http://shovon.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shovon/array-query"
+  },
+  "bugs": {
+    "url": "https://github.com/shovon/array-query/issues"
+  },
+  "license": "MIT",
+  "main": "./index.js",
+  "dependencies": {
+    "lodash": "^3.9.1"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "build": "babel src/index.js > index.js"
+  },
+  "devDependencies": {
+    "babel": "^5.4.5",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.5"
+  }
+}
