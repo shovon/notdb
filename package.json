@@ -1,5 +1,5 @@
 {
-  "name": "array-query",
+  "name": "notdb",
   "description": "Run MongoDB-like queries on objects",
   "version": "0.0.0",
   "keywords": [

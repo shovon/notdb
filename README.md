@@ -1,4 +1,4 @@
-# array-query
+# notdb
 
 > Run MongoDB-like queries on objects
 
